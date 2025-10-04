@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-export function SearchBar({ item, list }) {
-  return (<><p>found or not </p></>);
-}
+// export function SearchBar({ item, list }) {
+//   return (<><p>found or not </p></>);
+// }
 
 export default function Search({ list }) {
   const [searchTerm, setSearchTerm] = useState(null);
